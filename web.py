@@ -8,7 +8,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Load the saved model
-loaded_model = load_model("facial_expression_model.h5")
+loaded_model = load_model("Model/facial_expression_model.h5")
 
 # Function to preprocess images
 def preprocess_image(img):
